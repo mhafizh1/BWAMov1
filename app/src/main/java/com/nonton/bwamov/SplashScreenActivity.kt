@@ -6,6 +6,11 @@ import android.os.Bundle
 import android.os.Handler
 import com.nonton.bwamov.onboarding.OnboardingOneActivity
 
+/*
+    Activity pertama dalam aplikasi
+    hanya sekedar splash screen
+ */
+
 class SplashScreenActivity : AppCompatActivity() {
 
 
