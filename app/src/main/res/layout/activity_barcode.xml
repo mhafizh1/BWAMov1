@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center"
+    tools:context=".home.BarcodeActivity">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="50dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="300dp" >
+
+        <ImageView
+            android:id="@+id/qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_barcode" />
+
+        <Button
+            android:id="@+id/btn_tutup"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_rectangle_blue_grey"
+            android:text="@string/tutupbos"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginBottom="25dp"
+            android:textAlignment="center"
+            tools:text="@string/ucapan_qr" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+

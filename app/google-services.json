@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499757307038",
+    "firebase_url": "https://bwa-movie-f2abe.firebaseio.com",
+    "project_id": "bwa-movie-f2abe",
+    "storage_bucket": "bwa-movie-f2abe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499757307038:android:2520a89b6faf3d3040578f",
+        "android_client_info": {
+          "package_name": "com.nonton.bwamov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499757307038-dqr3lq4tibu2qqpgjmckhuhtart67grs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nonton.bwamov",
+            "certificate_hash": "de5e41bd23d93c0054e2fcc4ba0215030c21a7a9"
+          }
+        },
+        {
+          "client_id": "499757307038-8ei7dvt0kvgqdup67bucbm107knromvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmFWTKRfFCv7jhBnJvoVoY1dnz6I7zUAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499757307038-8ei7dvt0kvgqdup67bucbm107knromvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
